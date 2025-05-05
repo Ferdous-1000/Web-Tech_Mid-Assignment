@@ -3,26 +3,29 @@ body {
     margin: 20px;
     padding: 10px;
     text-align: center;
-        background-color: lightblue; 
+    background-color: lightblue; 
     
 }
 
-h1, h2 {
-    color: blue;
-}
+h1, h2 {color: blue;}
 
-form {
-    display: inline-block;
+form {display: inline-block;
     text-align: left;
     padding: 20px;
     border: 1px solid red;
-    width: 300px;
-}
+    width: 300px;}
 
-table {
-    width: 80%;
+table { width: 90%;
     margin: 20px auto;
     border-collapse: collapse;
+}
+#editForm{display: inline-block;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid red;
+    width: 1030px ;
+
+
 }
 
 th, td {
@@ -43,20 +46,5 @@ button[type="reset"] {
     color: white;
     border: none;
     padding: 10px 15px;
-    cursor: pointer;
-}
-button[type="edit"] {
-    background-color: lightgreen;
-    color: black;
-    border: none;
-    padding: 8px 12px;
-    cursor: pointer;
-}
-
-button:contains("Delete") {
-    background-color: red;
-    color: white;
-    border: none;
-    padding: 8px 12px;
     cursor: pointer;
 }
